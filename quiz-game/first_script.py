@@ -13,9 +13,11 @@ if jogando != "sim":
 
 pontos = 0
 
+
 print("\nsaturn: ok, vamos jogar.\n") 
 sleep(2)
 
+###pergunta 1
 
 resp = input("saturn: quanto é 1 + 1?\n ")
 if resp == "2":
@@ -23,10 +25,47 @@ if resp == "2":
     print("\nsaturn: correto!")
     pontos += 1
     sleep(1/3)
-    print("seu score total é de: " + str(pontos))
+    print("seu score total é de: " + str(pontos) + "\n\n")
+    sleep(1/2)
 else:                                      
     sleep(1)
     print("\nsaturn: errado.")
     pontos -= 1
     sleep(1/3)
-    print("saturn: seu score total é de: " + str(pontos))
+    print("saturn: seu score total é de: " + str(pontos) + "\n\n")
+    sleep(1/2)
+
+###pergunta 2
+
+resp = input("saturn: quanto é 99 + 4? \n ")
+if resp == "103":
+    sleep(1)
+    print("\nsaturn: correto!")
+    pontos += 1
+    sleep(1/3)
+    print("seu score total é de: " + str(pontos) + "\n\n")
+else:                                      
+    sleep(1)
+    print("\nsaturn: errado.")
+    pontos -= 1
+    sleep(1/3)
+    print("saturn: seu score total é de: " + str(pontos) + "\n\n")
+    sleep(1/2)
+
+###pergunta 3
+
+resp = input("saturn: quanto é 7 * 4?\n ")
+if resp == "28":
+    sleep(1)
+    print("\nsaturn: correto!")
+    pontos += 1
+    sleep(1/3)
+    print("seu score total é de: " + str(pontos) + "\n\n")
+    sleep(1/2)
+else:                                      
+    sleep(1)
+    print("\nsaturn: errado.")
+    pontos -= 1
+    sleep(1/3)
+    print("saturn: seu score total é de: " + str(pontos) + "\n\n")
+    sleep(1/2)
