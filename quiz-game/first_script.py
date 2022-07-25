@@ -6,9 +6,11 @@ print ("saturn: a cada resposta correta, você GANHA um ponto.\n        a cada r
 sleep(1)
 
 
-jogando = input("saturn: você quer jogar?\n ")
+jogando = input("saturn: você quer jogar? [s/n]\n escolha: ")
 
-if jogando != "sim":
+if jogando != "s":
+    print("\nsaturn: finalizando o processo")
+    sleep(2)
     quit()
 
 pontos = 0
@@ -202,3 +204,14 @@ else:
     sleep(1/3)
     print("saturn: seu score total é de: " + str(pontos) + "\n\n")
     sleep(1/2)
+
+### encerrando jogo e mostrando pontuação
+
+if(pontos>=6):
+    print("saturn: parabéns! você fez " + str(pontos) + " pontos.\n\n\n        o mínimo para passar são 6 pontos.")
+else:
+    print("saturn: você fez " + str(pontos) + " pontos.\n\n\n        o mínimo para passar são 6 pontos.")
+
+sleep(3)
+print("\n\n=========================================\n\nsaturn: obrigado por jogar!\n       finalizando o jogo em 15 segundos.\n=========================================\n")
+sleep(15)
