@@ -208,10 +208,10 @@ else:
 ### encerrando jogo e mostrando pontuação
 
 if(pontos>=6):
-    print("saturn: parabéns! você fez " + str(pontos) + " pontos.\n\n\n        o mínimo para passar são 6 pontos.")
+    print("saturn: parabéns! você fez " + str(pontos) + " pontos.\n        o mínimo para passar são 6 pontos.")
 else:
-    print("saturn: você fez " + str(pontos) + " pontos.\n\n\n        o mínimo para passar são 6 pontos.")
+    print("saturn: você fez " + str(pontos) + " pontos.\n        o mínimo para passar são 6 pontos.")
 
-sleep(3)
-print("\n\n=========================================\n\nsaturn: obrigado por jogar!\n       finalizando o jogo em 15 segundos.\n=========================================\n")
+sleep(2)
+print("\n\n=========================================\n\nsaturn: obrigado por jogar!\n        finalizando o jogo em 15 segundos.\n\n=========================================\n")
 sleep(15)
